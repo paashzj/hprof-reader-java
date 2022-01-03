@@ -80,7 +80,7 @@ public class InstanceService {
             if (Type.OBJ.equals(valueType)) {
                 long childObjId = (long) val;
                 if (maxDepth > 0) {
-                    recursiveGetVal(childObjId, maxDepth -1);
+                    recursiveGetVal(childObjId, maxDepth - 1);
                 }
             }
         }

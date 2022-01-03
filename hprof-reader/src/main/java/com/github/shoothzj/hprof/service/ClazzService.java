@@ -1,7 +1,5 @@
 package com.github.shoothzj.hprof.service;
 
-import com.github.shoothzj.hprof.module.http.GetClassResp;
-import com.github.shoothzj.hprof.module.http.GetClassRespList;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
